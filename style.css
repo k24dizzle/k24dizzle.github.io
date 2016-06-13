@@ -5,28 +5,39 @@ html, body{
 body {    
     margin-top: 0px;
     padding: 0px;
-    overflow: hidden;
     font-family: 'Lato', sans-serif;
 }
 .home {
+    overflow: hidden;
     height: 100%;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("photos/steph_curry.png");
-}
-h1 {
-    margin-top: 0px;
-}
-.home .content{
     color: white;
-    font-size: 100px;
 }
-
 .content{
     text-align: center;
     position: relative;
     width: 50%;
     top: 42%;
     margin: auto;
+}
+h1 {
+    margin-top: 0px;
+}
+.home h1 {
+    font-size: 60px;
+}
+.home p {
+    font-size: 50px;
+}
+.fa-angle-double-down:hover {
+    cursor:pointer;
+    color: #66B2FF;
+}
+.transition {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
 }
