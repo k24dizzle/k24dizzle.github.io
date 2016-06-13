@@ -1,0 +1,21 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+html, body, .home{
+    height: 100%;
+}
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.home {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("photos/steph_curry.png");
+}
+
+.home .container{
+    color: white;
+    font-size: 100px;
+}
