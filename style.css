@@ -46,8 +46,13 @@ h1 {
     width:100%;
     background-color: #EF9B0F;
 }
+.links h1 {
+    font-size: 50px;
+    top:42%;
+    
+}
 .morestuff {
-    height:40%;
+    height:55%;
     width:100%;
     background-size: cover;
     background-repeat: no-repeat;
