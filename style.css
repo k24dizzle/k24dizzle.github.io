@@ -34,10 +34,26 @@ h1 {
 }
 .fa-angle-double-down:hover {
     cursor:pointer;
-    color: #66B2FF;
+    color: #EF9B0F;
 }
 .transition {
     position: absolute;
     bottom: 2%;
     left: 50%;
+}
+.next {
+    height:50%;
+    width:100%;
+    background-color: #EF9B0F;
+}
+.morestuff {
+    height:40%;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('photos/memphis_curry.jpg')
+}
+.mo {
+    height: 100%;
+    background-color: #EF9B0F;
 }
