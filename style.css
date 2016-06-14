@@ -88,6 +88,7 @@ h1 {
     font-size: 49px;
     padding-left: 10px;
     padding-right: 10px;
+    display: inline-block;
 
 }
 .links a {
@@ -101,7 +102,27 @@ h1 {
 .curry {
     height:55%;
     width:100%;
+
+    background-color: #EF9B0F;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('photos/memphis_curry.jpg')
+}
+.info h1 {
+    text-align: center;
+    font-size: 70px;
+
+}
+.info h1:hover {
+    color: #EF9B0F;
+}
+.info a{ 
+    color: #EF9B0F;
+}
+.chess {
+    font-size: 65px;
+    display:inline-block;
+}
+.chess:hover {
+    text-decoration:none;
 }
