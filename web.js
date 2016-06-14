@@ -12,23 +12,31 @@ $(document).ready(function() {
     });
 });
 
-var velocity = 0.2;
+var velocity = 0.30;
+var velocity_name = 0.05;
 
 function update(){ 
     var pos = $(window).scrollTop(); 
-    $('.morestuff').each(function() { 
+    $('.curry').each(function() { 
         var $element = $(this);
         // subtract some from the height b/c of the padding
         var height = $element.height();
-        console.log("height" + height);
-        console.log(pos);
-        var newPos = -1 *  (height/5 - Math.round((pos - height) * velocity));
-        var data = '50% ' + newPos + 'px';
+        var newPos = (Math.round((pos - height) * velocity)) - height/1.5;
         console.log(newPos);
+        var data = '50% ' + newPos + 'px';
         if (newPos <= 0) {
             $(this).css('backgroundPosition', data); 
         }
     }); 
+    $('.content').each(function() {
+        var totalheight = $('.home').height();
+        var newPos = (Math.round(totalheight/2.5) + Math.round(pos * velocity_name));
+        var data = newPos + 'px';
+        if(newPos < totalheight * 0.70) {
+            $(this).css('top', data);
+        }
+
+    });
 };
 
 $(window).bind('scroll', update);
