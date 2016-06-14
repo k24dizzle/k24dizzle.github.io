@@ -64,18 +64,6 @@ h1 {
 .info {
     top: 50%;
 }
-/*
-.pic {
-    height: 50%;
-    width: 50%;
-    left: 25%;
-    bottom: 30%;
-    position:absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("photos/me.jpg");
-
-}*/
 .links {
     background-color:#661400;
     height: 45%;
