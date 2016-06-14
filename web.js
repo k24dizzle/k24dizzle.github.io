@@ -13,7 +13,7 @@ $(document).ready(function() {
 });
 
 var velocity = 0.30;
-var velocity_name = 0.15;
+var velocity_name = 0.2;
 
 function update(){ 
     var pos = $(window).scrollTop(); 
