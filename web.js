@@ -17,7 +17,7 @@ var velocity_name = 0.2;
 
 function update(){ 
     var pos = $(window).scrollTop(); 
-    $('.curry').each(function() { 
+    $('#curry').each(function() { 
         var $element = $(this);
         // subtract some from the height b/c of the padding
         var height = $element.height();
@@ -28,8 +28,8 @@ function update(){
             $(this).css('backgroundPosition', data); 
         }
     }); 
-    $('.content').each(function() {
-        var totalheight = $('.home').height();
+    $('#content').each(function() {
+        var totalheight = $('#home').height();
         var newPos = (Math.round(totalheight/2.5) + Math.round(pos * velocity_name));
         var data = newPos + 'px';
         if(newPos < totalheight * 0.70) {
