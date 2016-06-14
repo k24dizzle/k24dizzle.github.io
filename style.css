@@ -59,7 +59,6 @@ h1 {
 }
 .about p {
     font-size: 40px;
-
 }
 .info {
     top: 50%;
@@ -86,7 +85,4 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('photos/memphis_curry.jpg')
-}
-.mo {
-    height:100%;
 }
