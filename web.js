@@ -3,7 +3,6 @@ $(document).ready(function() {
     var links = jQuery('a[href^="#"]').add('a[href^="."]');
     $(links).on('click', function(event) {
         var dest = $(this).attr('href');
-        console.log(dest);
         event.preventDefault();
 
         $('html, body').animate({
@@ -13,7 +12,7 @@ $(document).ready(function() {
 });
 
 var velocity = 0.4;
-var velocity_name = 0.2;
+var velocity_name = 0.4;
 
 function update(){ 
     var pos = $(window).scrollTop(); 
@@ -22,7 +21,6 @@ function update(){
         // subtract some from the height b/c of the padding
         var height = $element.height();
         var newPos = (Math.round((pos - height) * velocity)) - height/1.5;
-        console.log(newPos);
         var data = '50% ' + newPos + 'px';
         if (newPos <= 0) {
             $(this).css('backgroundPosition', data); 
@@ -30,12 +28,11 @@ function update(){
     }); 
     $('#content').each(function() {
         var totalheight = $('#home').height();
-        var newPos = (Math.round(totalheight/2.5) + Math.round(pos * velocity_name));
+        var newPos = (Math.round(totalheight/3.3333) + Math.round(pos * velocity_name));
         var data = newPos + 'px';
-        if(newPos < totalheight * 0.70) {
+        if(newPos < totalheight -  $('.content').height() - $('.transition').height()) {
             $(this).css('top', data);
         }
-
     });
 };
 

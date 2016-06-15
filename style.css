@@ -15,7 +15,6 @@ body {
     background-repeat: no-repeat;
     background-image: url("photos/steph_curry.png");
     background-attachment: fixed;
-    color: white;
     border-bottom-style: groove;
     border-width:1px;
     border-color: #262626;
@@ -25,7 +24,7 @@ body {
     text-align: center;
     position: relative;
     width: 50%;
-    top: 40%;
+    top: 30%;
     margin: auto;
 }
 h1 {
