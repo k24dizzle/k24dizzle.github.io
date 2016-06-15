@@ -18,8 +18,9 @@ body {
     color: white;
     border-bottom-style: groove;
     border-width:1px;
-    border-color: #d9d9d9;
+    border-color: #262626;
 }
+
 .content{
     text-align: center;
     position: relative;
@@ -32,8 +33,10 @@ h1 {
 }
 #home h1 {
     font-size: 80px;
+    color: black;
 }
 #home p {
+    color: black;
     font-size: 65px;   
 }
 .trans:hover {
@@ -42,12 +45,15 @@ h1 {
 }
 .transition {
     bottom: 2%;
-    left: 50%;
+    left: 49%;
+    text-align center;
+
     position:absolute;
+
 }
 .transition2 {
     bottom: 2%;
-    left: 50%;
+    left: 49%;
     position:absolute;
 }
 #about {
@@ -58,7 +64,7 @@ h1 {
     color: white;
 }
 #about p {
-    font-size: 40px;
+    font-size: 50px;
 }
 .info {
     top: 50%;
@@ -106,7 +112,7 @@ h1 {
     border-bottom-style: groove;
     border-top-style: groove;
     border-width:1px;
-    border-color: #d9d9d9;
+    border-color: #262626;
     background-color: #EF9B0F;
     background-size: cover;
     background-repeat: no-repeat;
