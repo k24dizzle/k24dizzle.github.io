@@ -57,18 +57,19 @@ h1 {
     position:absolute;
 }
 #about {
-    height:50%;
     width:100%;
+    display:block;
+    overflow:auto;
     background-color: #0066cc;
     position:relative;
+    padding-bottom: 70px;
     color: white;
     padding-left: 1%;
 }
 #about p {
-    font-size: 50px; 
-    font-size: 3vw;
+    font-size: 40px; 
 }
-.info {
+.container {
     top: 50%;
 }
 #links {
@@ -111,7 +112,6 @@ h1 {
     height:55%;
     width:100%;
 
-    border-bottom-style: groove;
     border-top-style: groove;
     border-width:1px;
     border-color: #262626;
@@ -120,15 +120,15 @@ h1 {
     background-repeat: no-repeat;
     background-image: url('photos/memphis_curry.jpg')
 }
-.info h1 {
+.container h1 {
     text-align: center;
     font-size: 70px;
 
 }
-.info h1:hover {
+.container h1:hover {
     color: #EF9B0F;
 }
-.info a{ 
+.container a{ 
     color: #EF9B0F;
 }
 .chess {
