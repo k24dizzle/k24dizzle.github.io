@@ -57,14 +57,16 @@ h1 {
     position:absolute;
 }
 #about {
-    height:100%;
+    height:50%;
     width:100%;
     background-color: #0066cc;
     position:relative;
     color: white;
+    padding-left: 1%;
 }
 #about p {
-    font-size: 50px;
+    font-size: 50px; 
+    font-size: 3vw;
 }
 .info {
     top: 50%;
