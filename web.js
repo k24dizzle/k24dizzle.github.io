@@ -12,7 +12,7 @@ $(document).ready(function() {
     });
 });
 
-var velocity = 0.30;
+var velocity = 0.4;
 var velocity_name = 0.2;
 
 function update(){ 
