@@ -11,7 +11,7 @@ $(document).ready(function() {
     });
 });
 
-var velocity = 0.4;
+var velocity = 0.6;
 // var velocity_name = 0.4;
 
 function update(){ 
@@ -22,6 +22,7 @@ function update(){
         var height = $element.height();
         var newPos = (Math.round((pos - height) * velocity)) - height/1.5;
         var data = '50% ' + newPos + 'px';
+        console.log("POS" + pos + " height" + height + "new pos " + newPos);
         if (newPos <= 0) {
             $(this).css('backgroundPosition', data); 
         }

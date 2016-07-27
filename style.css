@@ -72,7 +72,7 @@ h1 {
 }
 #links {
     background-color: #EF9B0F;
-    height: 45%;
+    height: 25%;
         display:block;
     overflow:auto;
 
@@ -106,10 +106,10 @@ h1 {
     padding-right: 10px;
 }
 #links a:link {
-    color: red;
+    color: #0066cc;
 }
 #curry {
-    height:55%;
+    height:75%;
     width:100%;
     position: relative;
     border-top-style: groove;
