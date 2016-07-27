@@ -4,9 +4,9 @@ $(document).ready(function() {
     $(links).on('click', function(event) {
         var dest = $(this).attr('href');
         event.preventDefault();
-
         $('html, body').animate({
-            scrollTop: $(dest).offset().top
+            scrollTop: $(dest).height() + $('#curry').height()
+            
         }, 1000);
     });
 });
