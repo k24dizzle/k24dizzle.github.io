@@ -59,7 +59,7 @@ h1 {
     width:100%;
     display:block;
     overflow:auto;
-    background-color: #0066cc;
+    background-color:RGB(46,116,191);
     position:relative;
     padding-bottom: 70px;
     color: white;
@@ -68,6 +68,7 @@ h1 {
 #about p {
     font-size: 40px; 
 }
+
 .container {
     top: 50%;
 }
@@ -124,6 +125,7 @@ h1 {
 .container h1 {
     text-align: center;
     font-size: 70px;
+    color: #EF9B0F;
 
 }
 .container h1:hover {

@@ -12,7 +12,7 @@ $(document).ready(function() {
 });
 
 var velocity = 0.4;
-var velocity_name = 0.4;
+// var velocity_name = 0.4;
 
 function update(){ 
     var pos = $(window).scrollTop(); 
@@ -26,6 +26,7 @@ function update(){
             $(this).css('backgroundPosition', data); 
         }
     }); 
+    /*
     $('#content').each(function() {
         var totalheight = $('#home').height();
         var newPos = (Math.round(totalheight/3.3333) + Math.round(pos * velocity_name));
@@ -34,6 +35,7 @@ function update(){
             $(this).css('top', data);
         }
     });
+    */
 };
 
 $(window).bind('scroll', update);
