@@ -39,5 +39,5 @@ function update(){
     */
 };
 
-$(window).bind('scroll', update);
+// $(window).bind("scroll", update)
 

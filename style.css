@@ -72,7 +72,6 @@ h1 {
 }
 #links {
     background-color: #EF9B0F;
-    height: 25%;
         display:block;
     overflow:auto;
 
@@ -109,7 +108,7 @@ h1 {
     color: #0066cc;
 }
 #curry {
-    height:75%;
+    height:500px;
     width:100%;
     position: relative;
     border-top-style: groove;
@@ -117,8 +116,10 @@ h1 {
     border-color: #262626;
     background-color: #EF9B0F;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-image: url('photos/memphis_curry.jpg')
+    background-image: url('photos/memphis_curry.png')
 }
 .container h1 {
     text-align: center;
