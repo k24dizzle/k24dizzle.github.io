@@ -19,7 +19,6 @@ body {
     border-width:1px;
     border-color: #262626;
 }
-
 .content{
     text-align: center;
     position: relative;
@@ -112,7 +111,7 @@ h1 {
 #curry {
     height:55%;
     width:100%;
-
+    position: relative;
     border-top-style: groove;
     border-width:1px;
     border-color: #262626;
@@ -139,4 +138,13 @@ h1 {
 }
 .chess:hover {
     text-decoration:none;
+}
+#work, #hobby {
+    text-align: center;
+}
+#row {
+    padding-top: 10px;
+}
+#overview {
+    padding-bottom: 10px;
 }
