@@ -32,10 +32,9 @@ h1 {
 }
 #home h1 {
     font-size: 80px;
-    color: black;
+    color: #1a1a1a;
 }
 #home p {
-    color: black;
     font-size: 65px;   
 }
 .trans:hover {
