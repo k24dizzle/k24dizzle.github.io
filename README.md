@@ -1,4 +1,4 @@
 # k24dizzle.github.io
 i want a website
 
-<a href="k24dizzle.github.io"> k24dizzle.github.io </a>
+<a href="https://k24dizzle.github.io"> check it out :P </a>
