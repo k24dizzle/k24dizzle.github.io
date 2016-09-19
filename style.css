@@ -14,14 +14,19 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("photos/mountain.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-attachment: fixed;
     border-bottom-style: groove;
     border-width:1px;
     border-color: #262626;
     vertical-align: middle;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
 }
 .content{
     text-align: center;
@@ -128,9 +133,6 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('photos/curry.jpg')
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 }
 .container h1 {
     text-align: center;
