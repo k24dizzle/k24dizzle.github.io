@@ -8,11 +8,18 @@ body {
     font-family: 'Lato', sans-serif;
 }
 #home {
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+}
+#background {
+    z-index: -1;
     overflow: hidden;
     height: 100%;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    opacity: 0.88;
     background-image: url("photos/mountain.jpg");
     background-attachment: fixed;
     border-bottom-style: groove;
@@ -29,12 +36,28 @@ body {
     background-size: cover;
 }
 .content{
+    position: absolute;
+    z-index: 8;
+    width: 100%;
     text-align: center;
     margin: auto;
     padding-top: 6.7%;
 }
 h1 {
     margin-top: 0px;
+}
+#break {
+    display: hidden;
+}
+#hello {
+    background-color: #99bbff;
+    opacity: 0.9;
+    display: inline-block;
+}
+#name_box {
+    background-color: #99bbff;
+    opacity: 0.80;
+    display: inline-block;
 }
 #home h1 {
     vertical-align: middle;
@@ -43,10 +66,16 @@ h1 {
     color: #000000;
 }
 #home p {
-
     vertical-align: middle;
     font-size: 85px;
     font-size: 12vh;
+}
+#break {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#break p {
+    display: none;
 }
 .trans:hover {
     cursor:pointer;
@@ -161,4 +190,7 @@ h1 {
 }
 #overview {
     padding-bottom: 10px;
+}
+#logos {
+    display: inline-block;
 }
