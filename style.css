@@ -13,6 +13,7 @@ body {
     width: 100%;
     z-index: 5;
 }
+
 #background {
     z-index: -1;
     overflow: hidden;
@@ -21,11 +22,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.88;
-    background-image: url("photos/mountain.jpg");
+    background-image: url("photos/backup.png");
     background-attachment: fixed;
-    border-bottom-style: groove;
-    border-width:1px;
-    border-color: #262626;
     vertical-align: middle;
     -webkit-background-size: 100%; 
     -moz-background-size: 100%; 
@@ -36,13 +34,36 @@ body {
     -o-background-size: cover; 
     background-size: cover;
 }
+@media screen and (min-device-width: 700px) {
+#background {
+    z-index: -1;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.88;
+    background-image: url("photos/mountain.jpg");
+    background-attachment: fixed;
+    vertical-align: middle;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+}
+}
+
 .content{
     position: absolute;
     z-index: 8;
     width: 100%;
     text-align: center;
     margin: auto;
-    padding-top: 6.7%;
+    top: 10%;
 }
 h1 {
     margin-top: 0px;
@@ -51,32 +72,60 @@ h1 {
     display: hidden;
 }
 #hello {
-    background-color: #99bbff;
-    opacity: 0.9;
+    background-color: 	#adcbe3;
+    opacity: 0.90;
     display: inline-block;
 }
 #name_box {
-    background-color: #99bbff;
-    opacity: 0.80;
+    background-color: 	#adcbe3;
+    opacity: 0.90;
     display: inline-block;
 }
 #home h1 {
     vertical-align: middle;
     font-size: 600%;
-    font-size: 15vh;
+    font-size: 15vmin;
     color: #000000;
 }
 #home p {
     vertical-align: middle;
+    color: #000000;
     font-size: 500%;
-    font-size: 12vh;
+    font-size: 12vmin;
 }
+@media (max-device-width: 1000px) {
+    #home h1 {
+    vertical-align: middle;
+    font-size: 600%;
+    font-size: 19vmin;
+    color: #000000;
+}
+#home p {
+    vertical-align: middle;
+    color: #000000;
+    font-size: 500%;
+    font-size: 15vmin;
+}
+.content{
+    position: absolute;
+    z-index: 8;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    top: 25%;
+}
+}
+
 #break {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #break p {
     display: none;
+}
+.trans{
+color: white;
+
 }
 .trans:hover {
     cursor:pointer;
@@ -134,11 +183,9 @@ h1 {
     top: 50%;
 }
 #links {
-    background-color: #EF9B0F;
-        display:block;
+    background-color:  #EF9B0F;
+    display:block;
     overflow:auto;
-
-
 }
 #links h1 {
     color: black;
@@ -153,8 +200,6 @@ h1 {
     font-size: 300%;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 0px;
-
 }
 #links h3 {
     color: black; 
@@ -175,9 +220,6 @@ h1 {
     height:500px;
     width:100%;
     position: relative;
-    border-top-style: groove;
-    border-width:1px;
-    border-color: #262626;
     background-color: #EF9B0F;
     background-size: cover;
     background-attachment: fixed;
@@ -204,4 +246,8 @@ h1 {
 }
 #logos {
     display: inline-block;
+}
+.email {
+    display: inline-block;
+    vertical-align: middle;
 }
