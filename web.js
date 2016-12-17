@@ -5,7 +5,7 @@ $(document).ready(function() {
         var dest = $(this).attr('href');
         event.preventDefault();
         $('html, body').animate({
-            scrollTop: $(dest).height() + $('#curry').height()  + $("#home").height() * 0.08            
+            scrollTop:$("#home").height()          
         }, 1400);
     });
 });
